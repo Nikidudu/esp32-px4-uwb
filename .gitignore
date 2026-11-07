@@ -1,0 +1,30 @@
+build/
+.cache/
+.vscode/
+
+# Host build of the in-tree AprilTag detector (laptop/apriltag_host.py)
+laptop/.apriltag-host/
+
+# MATLAB / Simulink
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.m~
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Bench-only firmware settings applied by flash_drone.sh (see laptop/UWB_README.md)
+sdkconfig.local
+
+# Old mission flight logs and test scratch (kept locally, never committed)
+mission/
+laptop/uwb_calibration.json
